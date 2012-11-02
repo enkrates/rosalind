@@ -7,12 +7,12 @@ else
 end
 
 def dna_complement (char)
-	case char
-		when 'A' then 'T'
-		when 'T' then 'A'
-		when 'C' then 'G'
-		when 'G' then 'C'
-	end
+  case char
+    when 'A' then 'T'
+    when 'T' then 'A'
+    when 'C' then 'G'
+    when 'G' then 'C'
+  end
 end
 
 dna_string = File.open(data_file, 'r').read
