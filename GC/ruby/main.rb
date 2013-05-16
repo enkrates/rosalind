@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wKU
+#!/usr/bin/env ruby -wU
 
 if ARGV[0]
   data_file = '../data/' + ARGV[0]
