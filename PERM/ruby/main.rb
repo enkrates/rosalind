@@ -1,6 +1,10 @@
 #!/usr/bin/env ruby -wU
 
-length = ARGV[0]
+if ARGV[0]
+  length = ARGV[0]
+else
+  length = 3 # value given as an example in the problem
+end
 
 original_string = (1..length.to_i).to_a.join
 

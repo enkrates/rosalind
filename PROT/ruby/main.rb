@@ -6,7 +6,7 @@ else
   data_file = "../data/sample.txt"
 end
 
-data_string = data_array = File.open(data_file, 'r').read
+data_string = File.open(data_file, 'r').read
 
 codon_table = Hash[
 "UUU" => "F",
