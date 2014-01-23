@@ -1,5 +1,4 @@
 require 'rake/testtask'
-require_relative 'DNA/ruby/main'
 
 desc "Default Task"
 task :default => [ :test ]
