@@ -1,14 +1,14 @@
 #!/usr/bin/env ruby -wU
 
-require_relative "../DNA/ruby/main"
+require "DNA"
 require "minitest/autorun"
 require 'minitest/pride'
  
 class TestDNA < MiniTest::Unit::TestCase
 
 	def setup
-		dna_string = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAA" +
-					 "AAAGAGTGTCTGATAGCAGC"
+		dna_string = "AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATT" +
+					 "AAAAAAAGAGTGTCTGATAGCAGC"
 		@dna = DNA.new(dna_string)
 	end
  
